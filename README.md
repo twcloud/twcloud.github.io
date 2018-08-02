@@ -1,37 +1,9 @@
-## Welcome to GitHub Pages
+## TiddlyWiki Cloud
 
-You can use the [editor on GitHub](https://github.com/twcloud/twcloud.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+TiddlyWiki Cloud (aka TiddlyWiki in the Sky by Jeremy) is a collection of pages which allow the user to read and write TiddlyWiki files and folders in their cloud drive. Currently only Dropbox is supported, but I plan to add more in the future once the code is stable.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Currently there are three different pages that can be used with Dropbox. 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/twcloud/twcloud.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+- https://twcloud.github.io/tw5-dropbox/ - This is the oldest and most dependable loader for TW5 files, but doesn't support TiddlyWiki Classic files. 
+- https://twcloud.github.io/dropbox/ - This is a newer loader which uses a different method to load files, but only seems to work on Chrome. Hardly anyone uses it, but you're welcome to try it. It might work with TiddlyWiki Classic.
+- https://twcloud.github.io/dropbox-datafolder/ - Still being built, this loader supports loading TiddlyWiki data folders instead of files. It is a complete rewrite and is split into several modules, which makes it a lot easier to use for other cloud services. In the future it will also support data folders. 
